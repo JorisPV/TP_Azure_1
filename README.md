@@ -99,16 +99,21 @@ Le groupe de sécurité réseau permet de sécuriser le trafic dans le réseau v
 - Zone de disponibilité : Acuune redondance d'infrastructure requise
 - Type de sécurité : Standard
 - Image : Windows Server 2022 Datacenter - x64 Gen2
-- Taille : Garder par défaut
+- Taille : Augmenter à B2s (b1s est insuffisant pour faire tourner Windows Server)
 - Nom d'utilisateur : esgi
 - Mot de passe : Définissez un mot de passe
 - Port d'entrée : Sélectionner "Aucun"
+
+![vm 3](https://acenox.fr/memoire/vm3.png)
+
 - Cliquer sur "Suivant : Disques" puis "Suivant : Réseaux"
 
 - Réseau Virtuel : vnet-1
 - Sous réseau : subnet-1 (10.0.0.0/24)
 - Garder le reste par défaut
 - Cliquer sur "vérifier + créer" puis "créer"
+
+![vm 4](https://acenox.fr/memoire/vm4.png)
 
 # Étape 9 : Configuration de la machine virtuelle
 
@@ -126,5 +131,10 @@ Le groupe de sécurité réseau permet de sécuriser le trafic dans le réseau v
 - Cliquer sur "Télécharger un fichier RDP"
 - Puis ouvrez le fichier & renseinez-y vos identifiants de connexion
 
+![vm 2](https://acenox.fr/memoire/vm2.png)
+
 Félicitations ! Vous avez terminé ce premier TP 🥳​ Vous avez su déployer une machine virtuelle et vous y connecter à distance.
+
+# Aller plus loin
+
 Pour aller plus loin, il est recommandé d'utiliser Azure Bastion pour sécuriser la connexion. De plus, grâce à ce système votre VM n'aura plus besoin d'avoir obligatoirement une IP publique ou d'agent installé pour s'y connecter.
