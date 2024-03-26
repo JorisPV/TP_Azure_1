@@ -140,3 +140,14 @@ Félicitations ! Vous avez terminé ce premier TP 🥳​ Vous avez su déployer
 # Aller plus loin
 
 Pour aller plus loin, il est recommandé d'utiliser Azure Bastion pour sécuriser la connexion. De plus, grâce à ce système votre VM n'aura plus besoin d'avoir obligatoirement une IP publique ou d'agent installé pour s'y connecter.
+
+# Étape 12 : Fin du TP - Suppression des ressources
+
+Nous vous conseillons fortement de supprimer vos ressources car comme vu pendant le cours, le paiement se fait à l'utilisation. Vu que nous avons terminé le TP, vous pouvez supprimer.
+Pour cela, rien de plus simple il suffit de suivre les étapes suivantes : 
+
+- Rechercher "Groupe de ressources"
+- Sélectionner votre Groupe "TP_Azure_1"
+- Cliquer sur "Supprimer le groupe de ressources"
+
+![Delete](https://acenox.fr/memoire/supv4.png)
