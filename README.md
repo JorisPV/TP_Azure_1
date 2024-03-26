@@ -66,6 +66,8 @@ Le groupe de sécurité réseau permet de sécuriser le trafic dans le réseau v
 - Région : France
 - Cliquer sur "vérifier + créer" puis "créer"
 
+![nsg1](https://acenox.fr/memoire/nsg1.png)
+
 # Étape 7 : Associer le groupe de sécurité au sous-réseau
 
 - Se rendre https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FNetworkSecurityGroups (dans groupe de sécurité réseau)
