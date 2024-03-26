@@ -58,7 +58,7 @@ L'objectif est de regrouper des serveurs dont les fonctions sont similaires.
 
 ![asg1](https://acenox.fr/memoire/asg1.png)
 
-# Étape 5 : Créer un groupe de sécurité réseau
+# Étape 6 : Créer un groupe de sécurité réseau
 
 Le groupe de sécurité réseau permet de sécuriser le trafic dans le réseau virtuel.
 
@@ -66,7 +66,7 @@ Le groupe de sécurité réseau permet de sécuriser le trafic dans le réseau v
 - Région : France
 - Cliquer sur "vérifier + créer" puis "créer"
 
-# Étape 6 : Associer le groupe de sécurité au sous-réseau
+# Étape 7 : Associer le groupe de sécurité au sous-réseau
 
 - Se rendre https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.Network%2FNetworkSecurityGroups (dans groupe de sécurité réseau)
 - Sélectionner nsg-1 (s'il n'apparaît pas, vous pouvez rafraichir la page).
@@ -80,7 +80,7 @@ Le groupe de sécurité réseau permet de sécuriser le trafic dans le réseau v
 
 ![asg3](https://acenox.fr/memoire/asg3.png)
 
-# Étape 7 : Créer des règles de sécurité
+# Étape 8 : Créer des règles de sécurité
 
 - Se rendre dans l'onglet "Règles de sécurité de trafic entrant"
 - Cliquer sur "Ajouter"
@@ -91,7 +91,7 @@ Le groupe de sécurité réseau permet de sécuriser le trafic dans le réseau v
 
 ![rdp](https://acenox.fr/memoire/rdp.png)
 
-# Étape 8 : Créer une machine virtuelle
+# Étape 9 : Créer une machine virtuelle
 
 - Cliquer sur "Créer une machine virtuelle Azure"
 - Nom : VM-1
@@ -115,7 +115,7 @@ Le groupe de sécurité réseau permet de sécuriser le trafic dans le réseau v
 
 ![vm 4](https://acenox.fr/memoire/vm4.png)
 
-# Étape 9 : Configuration de la machine virtuelle
+# Étape 10 : Configuration de la machine virtuelle
 
 - Cliquer sur votre machine virtuelle "VM-1"
 - Se rendre dans l'onglet "Groupe de sécurité d'application"
@@ -125,7 +125,7 @@ Le groupe de sécurité réseau permet de sécuriser le trafic dans le réseau v
 
 ![vm](https://acenox.fr/memoire/vm1.png)
 
-# Étape 10 : Tester la connexion
+# Étape 11 : Tester la connexion
 
 - Se rendre dans l'onglet "Connexion"
 - Cliquer sur "Télécharger un fichier RDP"
