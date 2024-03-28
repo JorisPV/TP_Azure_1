@@ -56,7 +56,7 @@ L'objectif est de regrouper des serveurs dont les fonctions sont similaires.
 - Région : France
 - Cliquer sur "vérifier + créer" puis "créer"
 
-![asg1 - 1](https://acenox.fr/memoire/asg1.png)
+![asg4](https://acenox.fr/memoire/asg4.png)
 
 # Étape 6 : Créer un groupe de sécurité réseau
 
