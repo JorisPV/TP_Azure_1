@@ -26,12 +26,6 @@ Vous pouvez le nommer "TP_Azure_1"
 
 Onglet : Information de base 
 
-- Nom du réseau : vnet-1
-- Région : France
-- Cliquer sur "Suivant"
-
-![Vnet](https://acenox.fr/memoire/vnet1.png)
-
 Onglet : Sécurité
 
 - Cocher la case "Chiffrement du réseau virtuel"
@@ -42,6 +36,12 @@ Onglet : Sécurité
 Onglet : Adresse IP
 
 - Modifier le sous réseau se nommant "défaut"
+
+- Nom du réseau : vnet-1
+- Région : France
+- Cliquer sur "Suivant"
+
+![Vnet](https://acenox.fr/memoire/vnet1.png)
 - Changer le nom du sous réseau par "subnet-1"
 - Enregistrer
 - Cliquer sur "vérifier + créer" puis "créer"
@@ -135,13 +135,30 @@ Le groupe de sécurité réseau permet de sécuriser le trafic dans le réseau v
 
 ![vm 2](https://acenox.fr/memoire/vm2.png)
 
-Félicitations ! Vous avez terminé ce premier TP 🥳​ Vous avez su déployer une machine virtuelle et vous y connecter à distance.
+# Étape 12 : Supprimer l'autorisation RDP
+
+Maintenant que nous avons pu voir que cela fonctionne, nous allons tenter de désactiver l'autorisation que nous avons mis en place sur notre NSG.
+
+- Cliquer sur votre machine virtuelle "VM-1"
+- Se rendre dans l'onglet "Paramètre réseau"
+- Supprimer la règle "allow-rdp"
+
+![NSG2](https://acenox.fr/memoire/nsg2.png)
+
+- Retourner dans l'onglet "connexion"
+- Tenter de se connecter en RDP avec la VM
+
+Si vous avez bien suivi toutes les étapes, vous devriez obtenir une erreur lorsque vous tentez de vous connecter en RDP à votre machine virtuelle.
+
+![RDPNOTOK](https://acenox.fr/memoire/rdpnotok.png)
+
+Félicitations ! Vous avez terminé ce premier TP 🥳​
 
 # Aller plus loin
 
 Pour aller plus loin, il est recommandé d'utiliser Azure Bastion pour sécuriser la connexion. De plus, grâce à ce système votre VM n'aura plus besoin d'avoir obligatoirement une IP publique ou d'agent installé pour s'y connecter.
 
-# Étape 12 : Fin du TP - Suppression des ressources
+# Étape 13 : Fin du TP - Suppression des ressources
 
 Nous vous conseillons fortement de supprimer vos ressources car comme vu pendant le cours, le paiement se fait à l'utilisation. Vu que nous avons terminé le TP, vous pouvez supprimer.
 Pour cela, rien de plus simple il suffit de suivre les étapes suivantes : 
